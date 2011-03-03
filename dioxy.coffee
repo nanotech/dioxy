@@ -2,7 +2,7 @@ util = require 'util'
 httpProxy = require 'http-proxy'
 
 securify = (url) ->
-  wikiregex = /http:\/\/(([a-z0-9]*)\.?(wikipedia|wiktionary)\.org)\/(wiki)?/
+  wikiregex = /http:\/\/(([a-z0-9]*)\.?(wikipedia|wiktionary|wikibooks|wikiquote|wikisource|wikinews|wikiversity)\.org)\/(wiki)?/
   newurl = null
   if url.match /(http:\/\/www\.google\.[a-z]+)\/(search|webhp)?/
     newurl = url.replace /http:\/\/www\.google\.[a-z]+\//, 'https://encrypted.google.com/'

@@ -7,8 +7,8 @@ It's an HTTP proxy which ensures that you're always
 using the HTTPS version of a site whenever one is
 available. The currently supported sites are:
 
-* Wikipedia
-* Wiktionary
+* Wikipedia, Wiktionary, Wikibooks, Wikiquote,
+  Wikisource, Wikinews, and Wikiversity
 * Google Search
 * YouTube
 * Twitter
