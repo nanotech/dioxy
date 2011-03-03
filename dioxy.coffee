@@ -13,7 +13,7 @@ securify = (url) ->
       newurl = newurl.replace '/en/', "/#{RegExp.$2}/"
     if RegExp.$4 is ''
       newurl += 'wiki'
-  else if url.match /http:\/\/[a-z0-9]*\.?(youtube|twitter)\.com\//
+  else if url.match /http:\/\/[a-z0-9]*\.?(youtube|twitter|facebook)\.com\//
     newurl = url.replace 'http://', 'https://'
   return newurl
 

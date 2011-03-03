@@ -12,6 +12,7 @@ available. The currently supported sites are:
 * Google Search
 * YouTube
 * Twitter
+* Facebook
 
 The redirection mechanism is currently monolithic, but
 I might make it fancier in the future.
